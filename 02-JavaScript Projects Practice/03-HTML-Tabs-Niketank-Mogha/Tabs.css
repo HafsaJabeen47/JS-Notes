@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.nav{
+    width: 100%;
+    height: 350px;
+    background-color: #6e97ff;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+.nav .logo p{
+    color: white;
+    font-size: 22px;
+}
+
+.logo span{
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.nav .nav-links a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    font-size: 14px;
+    letter-spacing: 0.8px;
+    border-radius: 25px;
+}
+
+.nav-links #active{
+    background-color: white;
+    color: black; 
+    box-shadow: 1px 1px 5px rgb(26, 26, 26);
+}
+
+.nav .nav-links a:hover{
+    background-color: white;
+    color: black; 
+    box-shadow: 1px 1px 5px rgb(26, 26, 26);
+}
+
+/* End Nav section CSS */
+.wrapper{
+    width: 100%;
+    max-width: 450px;
+    min-width: 200px;
+    /* height: 460px; */    /* HUsain sir waly lecture me b us ne just width ko min max kia tha height define hi nahi ki the. is lye mene b yahan height ko comment kr dia q k is se responsive me khud hi height adjust ho rahi hai */
+    background-color: white;
+    margin: -200px auto 50px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 30px 30px;
+    display: none;
+    flex-direction: column;
+
+}
+
+.top-box-btn{
+    background-color: #6e97ff;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-box-btn button{
+    width: 48%;
+    margin: 3px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 14px;
+    
+}
+
+.top-box-btn .btu{
+    background-color: white;
+    color: black;
+}
+/* End Box Btn */
+
+.box-sign-up-text{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.box-sign-up-text p{
+    font-size: 12px;
+}
+/* End box-sign-up-text */
+
+.box-email-pwd-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.box-email-pwd-cont .box-text{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+}
+
+.box-email-pwd-cont .box-text input{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 5px ;
+}
+/* End box-email-pwd-cont */
+
+.box-btn-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.box-btn-cont button{
+    width: 100%;
+    height: 35px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: white;
+    background-color: #6e97ff;
+    letter-spacing: 0.5px;
+}
+
+#color{
+    display: none;
+    background-color: #4280ef;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+#sec-log-in{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #4280ef;
+}
+/* JS Classes */
+.active-anchor{
+    background-color: white;
+    color: black; 
+    box-shadow: 1px 1px 5px rgb(26, 26, 26);
+}
+
+.box-text span{
+    color: red;
+    font-size: 14px;
+    position: absolute;
+    top: 35px;
+    right: 5px;
+
+}
+
+.add-box{
+    max-width: 100px;
+    min-width: 30px;
+    border: 1px solid black;
+    background-color: white;
+    
+}

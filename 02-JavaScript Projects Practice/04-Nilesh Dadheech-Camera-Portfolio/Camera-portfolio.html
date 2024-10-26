@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera Portfolio</title>
+
+    <link rel="stylesheet" href="./Camera-portfolio.css">
+
+    <!-- Fontawesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header> <!--HEADER SECTION-->
+        <nav> <!--Navigation Bar-->
+            <div class="logo">
+                <p>Photo<span>pi</span>X</p>
+            </div>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Gallery</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <a href="#">Login</a>
+            </div>
+        </nav> <!--End Top Navigation Bar-->
+
+        <section class="h-text"> <!--Header Text Section-->
+            <i class="fa-solid fa-camera" id="camera"></i>
+            <h1>Caturing the moments that captivate your heart.</h1>
+            <input type="text" placeholder="Search here...">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </section>
+
+    </header> <!--End Header Section-->
+
+    <section class="filter-gallery"> <!--GALLERY SECTION-->
+        <div class="portfolio-menu">
+            <ul>
+                <li class="active" data-filter="*">All</li>
+                <li data-filter=".nature">Nature</li>
+                <li data-filter=".fashion">Fashion</li>
+                <li data-filter=".wedding">Wedding</li>
+            </ul>
+        </div><!--End Portfolio Menu-->
+
+        <div class="portfolio-item"> <!--Mean Images Main Container-->
+            <div class="item nature">
+                <img src="./Images/p1.jpg" alt="" width="100" height="100">
+            </div>
+
+            <div class="item fashion">
+                <img src="./Images/p2.jpg" alt="" width="100" height="100">
+            </div>
+
+            <div class="item wedding">
+                <img src="./Images/p3.jpg" alt="" width="100" height="100">
+            </div>
+
+            <div class="item nature">
+                <img src="./Images/p4.jpg" alt="" width="100" height="100">
+            </div>
+
+            <div class="item fashion">
+                <img src="./Images/p5.jpg" alt="" width="100" height="100">
+            </div>
+
+            <div class="item wedding">
+                <img src="./Images/p6.jpg" alt="" width="100" height="100">
+            </div>
+
+            <div class="item nature">
+                <img src="./Images/p7.jpg" alt="" width="100" height="100">
+            </div>
+
+            <div class="item fashion">
+                <img src="./Images/p8.jpg" alt="" width="100" height="100">
+            </div>
+
+            <div class="item wedding">
+                <img src="./Images/p9.jpg" alt="" width="100" height="100">
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- <script src="./Camera-portfolio.js"></script> -->
+
+    <!-- 02-Note: ab again google pe jana hai or "jquery CDn" type kr k jquery ki website pe jana hai then "minified" pe click kr k jo code open ho ga usy copy krna hai or HTML pe body tag ki closing se pehly paste kr dena hai jesy mene kia hai -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+
+    <!-- 01-Note: Images pe filter ko dynamically work krny k lye hum ne google pe jana hai or "isotope Jquery" ye type krna hai then left menu se "CDN" pe click krna hai or second wala link copy kr k HTML ki file me jahan script tag ka link add krty hen body se pehly wahan paste kr dena hai-->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+
+    <!-- 03-Note: ab phr 01-Note waly point ko follow krty hvy "isotope jquery" pe jana hai or left menu pe "initialize with jquery" pe click krna or first pe jo code ay ga blick me usy copy krna hai or HTML ki file me pehly aik script tag likhen gen or phr copied code ko script tag k ander paste krna hai. Ab parentheses me .grid ki bjay hm ne apni class ko add krna hai. or apni class wo ho gi jo images ka parents container ho ga like ab hmara images ka parent container ".portfolio-item" hai or nechy parenthese me hm ne .portfolio-item add krna hai or grid item ki jaga hmari jo class the wahan hm .item ki apni class add kren gen......or phr bad me khd se 3 lines add ki hen tutorial waly ne mene b wohi likhi hen. jo lines add krni hen wo nechy usi script me add krni hai jo hm ne 03-Note me code copy kia tha.-->
+    <!-- <script>
+        $('.grid').isotope({
+  // options
+  itemSelector: '.grid-item',
+  layoutMode: 'fitRows'
+});
+    </script> -->
+    <script>
+        $('.portfolio-item').isotope({
+  // options
+  itemSelector: '.item',
+  layoutMode: 'fitRows'
+});
+
+// ye 3 lines hen jinka zikr opr b kia hai mene. basically ye JS ka function hai classAdd and classRemove krny k lye.
+        $('.portfolio-menu ul li').click(function() {
+            $('.portfolio-menu ul li').removeClass('active');
+            $(this).addClass('active');
+
+                var selector = $(this).attr('data-filter');
+            $('.portfolio-item').isotope({
+                filter:selector
+            });
+            return false;
+
+        });
+    </script>
+
+</body>
+</html>
+
+<!-- abdurrehman -->

@@ -1,0 +1,4 @@
+JAVASCRIPT TOPICS:
+
+window.open()
+window.close()
