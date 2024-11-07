@@ -36,3 +36,13 @@ function arrFun(value, index){
 
 // THIS IS ABOUT FOR EACH LOOP BY YAHOO BABA FOR EACH LOOP TUTORIAL: opar foreach k bary jo instructions hen wo yahoo baba ki video ko follow kia hai.
 
+
+// ARROW FUNCTION IN FOREACH LOOP
+let fruits = ['apple', 'mango', 'orange', 'peach', 'pineapple', 'pear', 'banana'];
+
+fruits.forEach( (value, index)=>{
+    document.write(index + ' : ' + value + '<br>');
+});
+
+
+// NOTE: foreach k ander jo function bnaty hen usy hun anonymous function b keh skty hen arrow function b keh skty hen or call back function b keh skty hen isi lye isy higher order function b kehty hen ye question interview me b pucha jata hai k a higher orer function kya hota hai.
