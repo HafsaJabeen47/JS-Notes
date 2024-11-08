@@ -46,3 +46,20 @@ fruits.forEach( (value, index)=>{
 
 
 // NOTE: foreach k ander jo function bnaty hen usy hun anonymous function b keh skty hen arrow function b keh skty hen or call back function b keh skty hen isi lye isy higher order function b kehty hen ye question interview me b pucha jata hai k a higher orer function kya hota hai.
+
+
+// LET'S PRACTICE OF FOR EACH LOOP
+let veges = ['potato', 'onion', 'tomamto', 'radish', 'peace', 'ladyfinger'];
+
+veges.forEach( (value, index)=>{
+    myLoop() + document.write(index + ' : ' + value)
+});
+
+function myLoop(){
+    for(let i=0; i<=5; i++){
+        document.write(i,'<br>')
+    }
+}
+
+
+
