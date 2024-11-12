@@ -95,3 +95,22 @@ console.log(userName.charAt(4));
 
  let useName = "@" + fullName + fullName.length;
  console.log(useName);
+
+
+
+
+
+
+
+
+
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// String Methods from paid course of Shradha Khapra ---Zoom Learning----- 
+// trim()
+// toUpperCase()
+// toLowerCase()
+// indexOf()
+// slice()
+// replace()
+// repeat()
