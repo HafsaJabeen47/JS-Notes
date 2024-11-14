@@ -166,6 +166,17 @@ console.log(companies);
 
 
 
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Arrays method by shrdha khapra paind course
+// kisi specific array ko get krny k lye hunm [index] ka use krty hen to us k sath stirng k character ko b get kr skty hen if i am not wrong. mjy ye point abi clear nahi hai inf0[0][1]
+// Arrays are mutable but strings are immutable
+// push()add to end
+// pop()delete from end and return it
+// ushift()add to start
+// shift()delete from start & return it
+
+
+
 
 
 
