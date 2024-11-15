@@ -174,8 +174,17 @@ console.log(companies);
 // pop()delete from end and return it
 // ushift()add to start
 // shift()delete from start & return it
+
 // sort()like A to b then C then D and so on but it not works in numbers further i have to learn more about sort
 // indexOf()is me hum us value ko enter krty hen then value e uska index get hota hai.
+
+
+
+
+// refrences:mtalb adress:refrence variable jab b koi new array banta hai to wo refrence variable kehlata hai
+// new memory allocate hoti hai
+// adress compare hoty hen is ly eresult false ata dono ka adress diffrent hota hai
+// constnat arrays: explore this 
 
 
 
