@@ -175,6 +175,10 @@ console.log(companies);
 // ushift()add to start
 // shift()delete from start & return it
 
+
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// New Work about today: date: 15 November 2024.
 // sort()like A to b then C then D and so on but it not works in numbers further i have to learn more about sort
 // indexOf()is me hum us value ko enter krty hen then value e uska index get hota hai.
 
@@ -185,6 +189,7 @@ console.log(companies);
 // new memory allocate hoti hai
 // adress compare hoty hen is ly eresult false ata dono ka adress diffrent hota hai
 // constnat arrays: explore this 
+// nested array: [ [1,2,3], [4,5,6], [7,8,9]] this is the way to write nested array in main array
 
 
 
