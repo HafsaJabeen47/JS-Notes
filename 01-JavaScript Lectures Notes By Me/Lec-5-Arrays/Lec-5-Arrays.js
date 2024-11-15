@@ -187,15 +187,18 @@ console.log(companies);
 
 // refrences:mtalb adress:refrence variable jab b koi new array banta hai to wo refrence variable kehlata hai
 // new memory allocate hoti hai
-// adress compare hoty hen is ly eresult false ata dono ka adress diffrent hota hai
+
+// adress compare hoty hen is lye result false ata dono ka adress diffrent hota hai
 // constnat arrays: explore this 
 // nested array: [ [1,2,3], [4,5,6], [7,8,9]] this is the way to write nested array in main array
+// 
 
 
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // Array.filter()
+// Array.map()
 
 
 
