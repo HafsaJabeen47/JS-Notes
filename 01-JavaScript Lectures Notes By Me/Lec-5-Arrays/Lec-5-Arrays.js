@@ -4,7 +4,7 @@
 // Arrays has single value but object has key:value pair
 // Array me hum multiple collection of item ko aik single nam dy kr usy store krwa skty hen jab k hum object me her item k lye hum alg se key dety thy but array me esa nahi hota.
 // NOTE: Arrays apny ap me kuch nahi hoty bal k ye khud apny ap me aik object type hoty hen or arrays me object ki tran key:value ki bjay index:value hoti hai
-// IMPORTANT NOTE: In javaScript strings are immutable can't changed and arrays are muteable can be changed Mean hm arrays me particular index ki value ko change kr skty hen or jab k strings me hum particular index ki value ko change ahi kr skty. 
+// IMPORTANT NOTE: In javaScript strings are immutable can't changed and arrays are muteable can be changed Mean hm arrays me particular index ki value ko change kr skty hen or jab k strings me hum particular index ki value ko change nahi kr skty. 
 
 
 
@@ -13,7 +13,7 @@
 // 1: arrayName.length
 // 2: Array Indices: Indices is a plural form of Index we can access individual item by using index
 // 3: We can change existing value from an array like this: array[3] = 66;
-// 4: Looping over an Array NOTE: array ki looping krty hvy for loop me hum kabi b stopping condition me eaual to assign nahi kren gen bal k hum apny array ki length ko define krty hen idx < arrayName.length
+// 4: Looping over an Array NOTE: array ki looping krty hvy for loop me hum kabi b stopping condition me equal to assign nahi kren gen bal k hum apny array ki length ko define krty hen idx < arrayName.length
 // 5: WE PREFER ---FOR OF LOOP--- to print arrays by looping
 // 6: Array Methods
 // ---1: push()   ---add at the end
@@ -174,6 +174,8 @@ console.log(companies);
 // pop()delete from end and return it
 // ushift()add to start
 // shift()delete from start & return it
+// sort()like A to b then C then D and so on but it not works in numbers further i have to learn more about sort
+// indexOf()is me hum us value ko enter krty hen then value e uska index get hota hai.
 
 
 
