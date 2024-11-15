@@ -14,7 +14,7 @@
 // 2: str.toLowerCase()
 // 3: str.trim() it removes white space from starting and ending index/positions. ye bech wali spaces ko remove nahi krta.
 // NOTE: javascripts strings are immuteable ye original strings kabi b change nahi hoti hamehn strings pe method apply krny k lye strig ko new variable me store krna hota hai.
-// 4: str.slice(start, end?) it returns part of string lekn is me ending value consider nahi hoti suppose agr hum 0123456 starting index 1 or ednging index 4 dety hen to slice me hamen 1 se 3 tak tukra mily ga 4 wala index add nahi ho ga.
+// 4: str.slice(start, end?) it returns part of string lekn is me ending value consider nahi hoti suppose agr hum 0123456 starting index 1 or ending index 4 dety hen to slice me hamen 1 se 3 tak tukra mily ga 4 wala index add nahi ho ga.
 // 5: str1.concat(str2) it joins str2 with str1
 // 6: str.replace(searchVal, newVal) NOTE: use replaceAll to change the same words likr lolololo
 // 7: str.charAt(idx) character at method

@@ -50,7 +50,7 @@ let num2 = 50;
 let num3 = num1 * num2;
 console.log("Multiply of num1 and num2 is:", num3)
 
-// Now try to rite a table of 10150 using for loop
+// Now try to write a table of 10150 using for loop
 console.log('TRY TO WRITE A TABLE OF A LARGE NUMBER LIKE 10150')
 
 for (let i = 10150; i <= 101500; i = i+10150 ) {
