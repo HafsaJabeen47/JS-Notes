@@ -160,3 +160,6 @@ body.append(newPara);
 
 // 07:
 // classList(); add or remove
+
+// 08: classList.replace(); used to replace any class with new class name.
+// node.classList.replace('class old', 'class new');
