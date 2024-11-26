@@ -117,3 +117,46 @@ let divs = document.querySelectorAll(".box");
 divs[0].innerText = divs[0].innerText + " New Unique div one";
 divs[1].innerText = "New Unique div two";
 divs[2].innerText = "New Unique div three";
+
+
+
+
+
+
+// Byy SHAHID NAEEM:
+
+// 01: createElement(); you can create new element using javascript document.createElement();
+// e.g
+let newPara = document.createElement('p');
+newPara.innerText = 'This is new para for learinig how to create new element using javaScript.';
+console.log(newPara);
+// this is the way to add new element at the end of the node using JavaScript.
+let body = document.querySelector('body');
+body.append(newPara);
+
+
+// 02: 
+// InnerHTML: it shows the text and HTML elements also.
+// innerText: it shows the text of HTML elements.
+// textContent: it shows the hidden text like if we apply CSS property on an HTML element visibility: hidden; and textContent shows the hidden text in Javascript.
+
+
+// 03: 
+// getattribute() and setattribute();
+
+// 04:
+// .append(); it adds the new element at the end inside the node.
+// .prepend(); it adds new element at start inside the node.
+// .before(); it adds new element before the start node outside the main node.
+// .after(); it adds new element after the main node you can say outside the main node.
+
+
+// 05:
+// .appendChild(); you can add new element as child of specific main parent node.
+
+// 06:
+// node.remove(); used to remove any element.
+// node.removeChild(); used to remove any element.  this not confirmed.
+
+// 07:
+// classList(); add or remove
