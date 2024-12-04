@@ -6,6 +6,13 @@
 let fruits = ['apple', 'mango', 'orange', 'pineApple'];
 let findPosition = fruits.indexOf('mango');
 
-console.log(findPosition) // mango is at 1 position og array
+console.log(findPosition); // mango is at 1 position og array
 
-//&& 2:
+
+//&& 2: array.toString();
+// The JavaScript method toString() converts an array to a string of (comma separated) array values.
+
+let fruits2 = ['apple', 'mango', 'orange', 'pineApple'];
+let getToString = fruits2.toString();
+
+console.log(getToString); // apple,mango,orange,pineApple
