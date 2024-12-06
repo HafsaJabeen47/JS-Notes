@@ -204,6 +204,30 @@ console.log(companies);
 
 
 
+// youtube interview questions:
+console.log(!'hello');
+console.log(+false);
+
+
+let arr = [3,4,5,6,7,8];
+arr[10] = 100;
+console.log(arr);
+
+let xyz = 1 + abc;
+var abc = 100;
+console.log(xyz); //answer is: abc is not defined.
+
+
+let arrr = [89, 45, 67, 2, 56, 22, 1, 12];
+
+let newRe = Math.min(arrr);
+
+// console.log(newRe)
+
+
+
+
+
 
 
 
