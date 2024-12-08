@@ -1,4 +1,4 @@
-// BY Shahid Naeem Lecture No: is 51
+// BY Shahid Naeem Lecture No: is 51 
 // class and objects in javascript
 
 // 01: What is OOP In JavaScript?
@@ -68,5 +68,7 @@ product.__proto__=discount;
 
 // IMPORTANT NOTE: agr same naam k 2 functions hon aik object k ander or dusra prototype k ander to output me object wala function kam kry ga jo uski apni body me hai.
 
+
+// Have to learn Constructor
 
 
